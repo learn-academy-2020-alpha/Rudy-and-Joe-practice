@@ -1,15 +1,15 @@
-const tvshowsinfo = [
+const tvShowsInfo = [
     {
       id: 1,
       name: "Seinfeld",
       description: "A show about 4 friends in NYC.",
-      url: "https://www.imdb.com/title/tt0098904 "
+      url: "https://www.imdb.com/title/tt0098904/ "
     },
     {
       id: 2,
       name: "Game Of Thrones",
       description: "A show about Dragons and War.",
-      url: "https://www.imdb.com/title/tt0944947" 
+      url: "https://www.imdb.com/title/tt0944947"
     },
     {
       id: 3,
@@ -28,5 +28,5 @@ const tvshowsinfo = [
       url: "https://www.imdb.com/title/tt0108778 "
     }
   ]
-  
-  export default tvshowsinfo
+
+  export default tvShowsInfo
