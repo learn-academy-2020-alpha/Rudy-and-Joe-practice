@@ -22,13 +22,14 @@ function App() {
                   <Link to="/about/">About</Link>
                 </li>
                 <li>
-                  <Link to="/TVShows">TV Shows</Link>
+                  <Link to={ `/tvshowsinfo/${tvshow.id}` }> {tvshow.id} </Link>
                 </li>
               </ul>
             </nav>
             <Switch>
             <Route path="/about/" component={ AboutUs } />
-            <Route path="/TVShows/" component={ TVShows } />
+            <Route path="/tvshowsinfo/:id" 
+            render={ (props) => <TVShow {...props} tvshows={ this.state.allTVShows } /> } />
             <Route path="/" exact component={ Home } />
             <Route component={ NotFound } />
             </Switch>
