@@ -2,11 +2,39 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
 import './App.css';
 
+import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import TVShows from "./pages/TVShows";
+import NotFound from "./pages/NotFound"
+
 function App() {
   return (
-    <div>
-  
-    </div>
+    <>
+      <Router>
+          <div>
+            <h1>Welcome to Our Favorite TV Shows</h1>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about/">About</Link>
+                </li>
+                <li>
+                  <Link to="/TVShows">TV Shows</Link>
+                </li>
+              </ul>
+            </nav>
+            <Switch>
+            <Route path="/about/" component={ AboutUs } />
+            <Route path="/TVShows/" component={ TVShows } />
+            <Route path="/" exact component={ Home } />
+            <Route component={ NotFound } />
+            </Switch>
+          </div>
+        </Router>
+    </>
   );
 }
 
