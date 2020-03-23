@@ -5,6 +5,7 @@ class AboutUs extends Component{
     return(
       <React.Fragment>
         <h1>About Us</h1>
+        <p>Made By Rudy and Joe.</p>
       </React.Fragment>
     )
   }
