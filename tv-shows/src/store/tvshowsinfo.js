@@ -3,7 +3,7 @@ const tvShowsInfo = [
       id: 1,
       name: "Seinfeld",
       description: "A show about 4 friends in NYC.",
-      url: "https://www.imdb.com/title/tt0098904/ "
+      url: "https://www.google.com"
     },
     {
       id: 2,
@@ -15,17 +15,17 @@ const tvShowsInfo = [
       id: 3,
       name: "Simpsons",
       description: "A show about a family in Springfield.",
-      url: "https://www.imdb.com/title/tt0096697 "
+      url: "https://www.imdb.com/title/tt0096697"
     },
     { id: 4,
       name: "Breaking Bad",
       description: "A show about making and selling drugs.",
-      url: "https://www.imdb.com/title/tt0903747 "
+      url: "https://www.imdb.com/title/tt0903747"
     },
     { id: 5,
       name: "Friends",
       description: "A show about 5 friends in a coffee shop.",
-      url: "https://www.imdb.com/title/tt0108778 "
+      url: "https://www.imdb.com/title/tt0108778"
     }
   ]
 
