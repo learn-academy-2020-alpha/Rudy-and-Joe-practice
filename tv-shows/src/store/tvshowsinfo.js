@@ -3,7 +3,7 @@ const tvShowsInfo = [
       id: 1,
       name: "Seinfeld",
       description: "A show about 4 friends in NYC.",
-      url: "https://www.google.com"
+      url: "https://www.imdb.com/title/tt0098904/"
     },
     {
       id: 2,

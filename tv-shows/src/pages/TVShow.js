@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 
+
 class TVShow extends Component{
   render(){
     const { id } = this.props.match.params
@@ -9,7 +10,7 @@ class TVShow extends Component{
         <div>
           <h3>{ tvShow.name }</h3>
           <p>{ tvShow.description }</p>
-          <a href={ tvShow.url }> IMDb Link </a>
+          <a href={ tvShow.url } target="_blank"> IMDb Link </a>
         </div>
       </>
     )
